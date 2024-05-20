@@ -19,8 +19,8 @@
 
 body {
   line-height: 1.5;
-  font-family: "aleo-regular";
-  -webkit-font-smoothing: antialiased;
+  font-family:"aleo-regular",  'Lucida Sans Unicode', Geneva, Verdana, sans-serif, system-ui;
+  /* -webkit-font-smoothing: antialiased; */
 }
 
 img,
@@ -78,7 +78,7 @@ h6 {
 }
 
 .overlay p {
-  font-family: "demon-slayer-font";
+  font-family: "demon-slayer-font", Roboto, Oxygen, Ubuntu, Cantarell, system-ui;
   color: white;
   font-size: 2rem;
   letter-spacing: 0.1rem;
