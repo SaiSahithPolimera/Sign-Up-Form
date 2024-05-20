@@ -1,11 +1,11 @@
 @font-face {
   font-family: "demon-slayer-font";
-  src: url(/fonts/Demon-Slayer/Font/blood-crow-Condensed.ttf);
+  src: url(fonts/Demon-Slayer/Font/blood-crow-Condensed.ttf);
 }
 
 @font-face {
   font-family: "aleo-regular";
-  src: url(/fonts/aleo-regular-webfont.woff2);
+  src: url(fonts/aleo-regular-webfont.woff2);
 }
 *,
 *::before,
