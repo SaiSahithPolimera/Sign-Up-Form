@@ -1,0 +1,217 @@
+@font-face {
+  font-family: "demon-slayer-font";
+  src: url(/fonts/Demon-Slayer/Font/blood-crow-Condensed.ttf);
+}
+
+@font-face {
+  font-family: "aleo-regular";
+  src: url(/fonts/aleo-regular-webfont.woff2);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "aleo-regular";
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.sign-up {
+   display: flex;
+  align-items: center;
+}
+
+#bannercontainer {
+  padding: 0;
+  margin: 0;
+  width: 36%;
+}
+
+.overlay {
+  background-color: rgba(2, 0, 0, 0.655);
+  width: 35.65%;
+  height: 15%;
+  position: absolute;
+  top: 40%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.overlay p {
+  font-family: "demon-slayer-font";
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.credits {
+  position: absolute;
+  bottom: 12px;
+  left: 10%;
+}
+
+.credits a,
+p {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#logo {
+  width: clamp(100px, 80px ,50px);
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  padding: 42px;
+  box-shadow: 0px 11px 18px -8px #b9b7b7;
+  gap: 32px;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 65%;
+}
+
+.form-input-container {
+  display: flex;
+  gap: 160px;
+}
+
+.corps-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.corps-form-name,
+.corps-form-surname,
+.corps-form-mail,
+.corps-form-password,
+.corps-form-phonenumber,
+.corps-form-confirmpassoword {
+  display: flex;
+  flex-direction: column;
+  /* font-size: 1.2rem; */
+  font-size: clamp(1.2vw, 1.2rem, 0.9rem);
+}
+
+
+
+#corpsform input {
+  border-radius: 4px;
+  padding: 3px 6px;
+  /* width: 125%; */
+  width: clamp(100%, 125%, 60%);
+  border: 2px solid #E5E7EB;
+}
+
+#corpsform input:focus {
+  outline: none;
+  border: 2px solid rgb(55, 52, 239);
+  box-shadow: 3px 6px 12px 1px rgb(197, 197, 197);
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+.form-content p:nth-child(1) {
+  font-weight: 700;
+  font-size: clamp(1.4vw, 1.8rem, 1rem);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+header {
+  font-size: clamp(1.4vw, 3.5rem, 1rem);
+}
+
+.corps-form-button {
+  padding: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+
+.corps-form-button button {
+  background-color: #695647;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.corps-form-button button:hover {
+  background-color: #695647ea;
+  transition: 0.4s ease-in;
+}
+
+.corps-form-button a {
+  text-decoration: none;
+  color: #695647;
+  font-weight: 600;
+}
+
+#corpsform input:focus:invalid{
+  border: 2px solid #fa3e3e;
+}
+
+
+
+
